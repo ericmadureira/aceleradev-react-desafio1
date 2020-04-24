@@ -10,22 +10,46 @@
 
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/main.css" />
+		<script src="https://kit.fontawesome.com/6e6cce4ca2.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
 		<header class="header">
-			<nav>
-				<ul>
-					<li><a href="#">IMDb</a></li>
-					<li><a href="#">Lançamentos</a></li>
-					<li><a href="#">Crítica</a></li>
-					<li><a href="#">Em cartaz</a></li>
-				</ul>
-			</nav>
+			<div class="headerBar">
+				<a href="#">
+					<img src="img/logo-imdb.jpg" alt="Logo IMDb">
+				</a>
 
-			<section class="featured">
-				Mad Max: Estrada da Fúria
-			</section>
+				<nav>
+					<ul class="headerNavList">
+						<li><a href="#">Lançamentos</a></li>
+						<li><a href="#">Crítica</a></li>
+						<li><a href="#">Em cartaz</a></li>
+					</ul>
+				</nav>
+
+				<div class="userInfo">
+					<img src="img/walter-white.jpg" alt="Foto do usuário">
+					<span>Walter White</span>
+				</div>
+			</div>
+
+			<div class="featured">
+				<span class="featuredTitle">Mad Max: Estrada da Fúria</span>
+				<p class="featuredCategories">
+					<a href="#">Aventura</a>
+					<a href="#">Sci-fi</a>
+					<a href="#">Terror</a>
+				</p>
+				<a href="#" class="watchTrailer">
+					<span>Assistir Trailer</span>
+					<i class="far fa-play-circle"></i>
+				</a>
+				<div class="featuredInfo">
+					<p>Nos Cinemas</p>
+					<p>15 de Outubro de 2015 (Brasil)</p>
+				</div>
+			</div>
 		</header>
 
 		<section class="movieList">
